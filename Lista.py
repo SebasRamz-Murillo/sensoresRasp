@@ -3,7 +3,7 @@ from JSON_Handle import JSON_Handle
 
 class Lista:
     def __init__(self, ruta):
-        self.json = JSON_Handle(ruta)
+        self.json = JSON_Handle(ruta)dsadsadassdaad
         self.listas = self.json.leer_de_json()  # load data from json file when class is instantiated
 
     def agregar(self, datos):
